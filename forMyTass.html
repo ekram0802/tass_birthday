@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday!</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #ffe6e6;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            margin: 50px auto;
+            max-width: 600px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+        button {
+            background-color: #ff9999;
+            color: white;
+            font-size: 18px;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #ff4d4d;
+        }
+        .message {
+            display: none;
+            margin-top: 20px;
+            padding: 20px;
+            background-color: white;
+            border: 2px solid #ffcccc;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="tass.jpg" alt="Birthday Celebration">
+
+        <img src="https://via.placeholder.com/600x300" alt="Birthday Celebration">
+        
+        <h1>Happy Birthday!</h1>
+        <p>Click the button below for a special message.</p>
+        <button onclick="showMessage()">It's your birthday, there is a message for you</button>
+        <div class="message" id="birthdayMessage">
+            <p>Happy Birthday to the most incredible person I know, my ride or die and the sister I never had. I am so proud of you, not just today, but every day. I see the strength you’ve shown, the battles you’ve fought, and the way you've carried yourself through moments of darkness with grace and courage. You've faced things you never thought you could.</p>
+            <p>Even in the moments when you doubted yourself, when the pain felt too much to bear, you kept going. I’ve witnessed your growth, your resilience, and your ability to find love for yourself even in the hardest of times. I’m so grateful to be able to walk beside you and to be there with you through every moment.</p>
+            <p>The world is better because you exist. I hope today, and every day, you know how much you are loved and how much you matter. You are worthy of every good thing this life has to offer, and I’m so excited to see all the amazing things waiting for you in the next chapter of your journey.</p>
+            <p>I may not have the same bloodline as you, but you are the sister my heart was always meant to find. I love you more than words can express, and I’m so proud of the person you’ve become. Happy, happy birthday my tass! Keep shining my beautiful person. I love you sooooo much, my avocado!</p>
+        </div>
+    </div>
+
+    <script>
+        function showMessage() {
+            const message = document.getElementById('birthdayMessage');
+            message.style.display = 'block';
+        }
+    </script>
+</body>
+</html>
